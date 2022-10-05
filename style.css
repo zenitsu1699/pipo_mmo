@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+header{
+    width: 100vw;
+    height: 30vh;
+    background-color: #313131;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.navlinks{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+    background-color: #313131;
+}
+
+h1{
+    font-size: 7vw;
+}
+
+.navbar .navlinks li button{
+    font-size: 1.5vw;
+    background-color: #313131;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar .navlinks li button a:hover{
+    color: black;
+    font-size: 1.7vw;
+}
+
+.navbar .navlinks .li button:hover{
+    border-left: violet dashed 2px;
+}
